@@ -182,6 +182,9 @@ error_reporting(E_ALL);
 
 #### Test Page:
 - `https://yourdomain.com/php-email-project/test.php`
+###
+![Screenshot from 2025-01-14 02-37-31](https://github.com/user-attachments/assets/6d51de2f-bb3f-4064-ad1d-f15161d64ae2)
+###
 
 - This checks if your server is running properly and displays PHP info.
 
