@@ -189,6 +189,9 @@ error_reporting(E_ALL);
 - This checks if your server is running properly and displays PHP info.
 
 - Email Sending Page: https://yourdomain.com/php-email-project/send-email.php
+###
+![ScreenShot Tool -20250114025008 (1)](https://github.com/user-attachments/assets/27714612-9de6-4ac7-88b0-c2c91866c60f)
+###
 
 This is the URL that sends the test email. After visiting it, you should see a message confirming whether the email was sent or not.
 
