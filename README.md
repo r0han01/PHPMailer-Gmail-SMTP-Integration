@@ -190,9 +190,9 @@ error_reporting(E_ALL);
 This is the URL that sends the test email. After visiting it, you should see a message confirming whether the email was sent or not.
 
 #### 5. Additional Resources
-PHPMailer Documentation - https://github.com/PHPMailer/PHPMailer/blob/master/README.md
-Gmail SMTP Settings - https://developers.google.com/gmail/imap/imap-smtp
-InfinityFree Documentation - https://developers.google.com/gmail/imap/imap-smtp
+- PHPMailer Documentation - https://github.com/PHPMailer/PHPMailer/blob/master/README.md
+- Gmail SMTP Settings - https://developers.google.com/gmail/imap/imap-smtp
+- InfinityFree Documentation - https://developers.google.com/gmail/imap/imap-smtp
 
 
 #### 6. **Frontend HTML Code**
