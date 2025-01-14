@@ -195,17 +195,17 @@ This is the URL that sends the test email. After visiting it, you should see a m
 - InfinityFree Documentation - https://developers.google.com/gmail/imap/imap-smtp
 
 
-#### 6. **Frontend HTML Code**
+#### 6. Frontend HTML Code
 
-The **frontend HTML code** for this project can be found in the **`php-email-project`** folder. 
+The frontend HTML code for this project is integrated within the `index.php` file, located inside the **php-email-project** folder.
 
-Please take the necessary files from there to customize the user interface of your email-sending script.
+You can customize the user interface and the email-sending process by modifying the HTML and PHP code together. Since the HTML structure is embedded within the PHP file, you can easily update or modify both the backend email logic and the frontend display in one place.
 
-You can modify the HTML structure and add additional styles as per your preference. For example, you can create a custom form or other UI elements to make the email sending process more interactive.
+#### Customizing the User Interface:
+Feel free to adjust the HTML structure and styles directly within `index.php` to fit your needs. For example, you can change the design, add more UI elements like input forms, buttons, or any other customization.
 
-Make sure to keep the PHP backend (`send-email.php`) and the frontend HTML files correctly linked and structured for smooth functionality.
+The PHP backend (for sending the email using PHPMailer) is seamlessly linked to the frontend HTML code. After the email is sent successfully, it will display a success message with an interactive design.
 
-**Note**: You can add your frontend HTML files in the same folder as `send-email.php`, or create a separate folder for the HTML files if you prefer. Simply ensure the paths are correctly referenced in the PHP files for form submissions or actions.
 
 ### 7. **Preventing Emails from Going to Spam**
 
