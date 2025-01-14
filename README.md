@@ -157,7 +157,9 @@ phpinfo();
 
 ### 2. Setting Up Gmail App Password
 - To use Gmail SMTP, you need to create an App Password if you have Two-Factor Authentication (2FA) enabled on your Gmail account.
-
+###
+![Screenshot from 2025-01-14 03-04-01 (1)](https://github.com/user-attachments/assets/7e314797-5448-42ab-97b0-528adffc5924)
+###
 
 #### Go to your Google Account Settings.
 - Navigate to the `Security` tab.
