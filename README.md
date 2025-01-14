@@ -2,6 +2,9 @@
 
 This repository contains a basic PHP script using **PHPMailer** to send emails via Gmail SMTP on **InfinityFree** hosting. It includes a test email functionality, styling, and error handling. Please follow the instructions below to set up your own email sender using this repo.
 
+![ScreenShot Tool -20250114015553](https://github.com/user-attachments/assets/2dd9d5c6-42ed-4deb-afab-063e16d11036)
+
+
 ## Prerequisites
 
 - A **Gmail account** to use for sending emails.
@@ -10,6 +13,7 @@ This repository contains a basic PHP script using **PHPMailer** to send emails v
 - **App Password** from Google (for Gmail SMTP authentication).
   
 **YouTube Tutorial**: Follow the **App Passwords tutorial** - https://youtu.be/hXiPshHn9Pw?feature=shared to learn how to create a Google App Password for your Gmail account.
+
 
 ### **Creating an App Password for Gmail (For PHPMailer Integration)**
 
@@ -26,6 +30,11 @@ Follow these steps to create your own **App Password**:
    - Under the "Select App" dropdown, choose **Mail** and select **Other (Custom name)** for the device name. Enter a name (for example, `PHPMailer`) and click **Generate**.
 4. **Copy the Generated App Password**: 
    - After clicking "Generate," you'll see a 16-character password in a yellow box like this:
+###
+![ScreenShot Tool -20250114020017 (1)](https://github.com/user-attachments/assets/c753c677-4b63-435f-8efc-ef1a746a764f)
+###
+![ScreenShot Tool -20250114020257](https://github.com/user-attachments/assets/30abb87b-4a05-4eac-8951-ff2f1e6939a1)
+###
    
 ```markdown
 rfyh kfgh ykfh djfh
@@ -58,22 +67,33 @@ After signing up and logging into your **InfinityFree** hosting account, follow 
 /htdocs
     ├── /PHPMailer                
     │   ├── /src                  # This src folder is directly from Github Repo mentioned below from official PHPMailer
-    │   ├── Exception.php
-    │   ├── PHPMailer.php
-    │   ├── SMTP.php
-    │   └── (other files)
+    │     ├── Exception.php
+    │     ├── PHPMailer.php
+    │     ├── SMTP.php
+    │     └── (other files)
     │
     ├── /php-email-project        
     │   ├── /send_email.php           
 
 
 ```
-
+###
+![ScreenShot Tool -20250114015850 (1)](https://github.com/user-attachments/assets/38909a58-820a-405f-bff8-a2374b2e2a83)
+###
+![ScreenShot Tool -20250114015905 (1)](https://github.com/user-attachments/assets/0bc85883-94a4-45e3-b688-63420e7de38f)
+###
 
 #### Step 2: Upload PHPMailer Library
 
 1. Download the latest PHPMailer from GitHub - https://github.com/PHPMailer/PHPMailer.
 2. Extract the contents of the `PHPMailer` folder and upload it to your `PHPMailer` folder inside `htdocs` on InfinityFree.
+###
+![ScreenShot Tool -20250114020900 (1)](https://github.com/user-attachments/assets/e91fe9aa-1c1e-4a10-b2bd-f92fb37d5ea6)
+###
+![Screenshot from 2025-01-14 02-12-25](https://github.com/user-attachments/assets/0886f140-e006-4cb6-8c43-2ccf304f0542)
+###
+![Screenshot from 2025-01-14 02-15-38](https://github.com/user-attachments/assets/05f65c2f-e3ef-4c8d-be19-913f86030163)
+###
 
 #### Step 3: Upload the Email Sending Script
 
@@ -121,18 +141,23 @@ try {
 ?>
 ```
 - Replace `'your-email@gmail.com'` and `'your-app-password'` with your own Gmail and App Password.
+###
+![ScreenShot Tool -20250114022228 (1)](https://github.com/user-attachments/assets/1ea1480c-dbf9-4660-9cb6-7f8b1c2068a3)
+###
+
 #### Step 4: Add the Test.php File
-- To ensure the server is working, you can create a simple test.php file that checks if PHP is functioning correctly. Place it in the php-email-project directory:
+- To ensure the server is working, you can create a simple test.php file that checks if PHP is functioning correctly. Place it in the `php-email-project` directory:
 
 ```php
 <?php
 phpinfo();
 ?>
 ```
-- Visit this file by accessing https://yourdomain.com/php-email-project/test.php. If PHP is set up correctly, this page will display all the information about your server’s PHP setup.
+- Visit this file by accessing `https://yourdomain.com/php-email-project/test.php`. If PHP is set up correctly, this page will display all the information about your server’s PHP setup.
 
 ### 2. Setting Up Gmail App Password
 - To use Gmail SMTP, you need to create an App Password if you have Two-Factor Authentication (2FA) enabled on your Gmail account.
+
 
 #### Go to your Google Account Settings.
 - Navigate to the `Security` tab.
